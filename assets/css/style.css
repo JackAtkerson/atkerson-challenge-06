@@ -1,0 +1,61 @@
+:root {
+    --primary: rgb(0, 0, 112);
+    --secondary: rgb(255, 196, 48);
+    --tertiary: rgb(46, 186, 46);
+}
+
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, var(--primary), blue); 
+    color: white;
+    text-align: center;
+}
+
+
+/* flex content */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+  
+.justify-space-between {
+    justify-content: space-between;
+}
+  
+.justify-space-around {
+    justify-content: space-around;
+}
+  
+.justify-flex-start {
+    justify-content: flex-start
+}
+  
+.justify-flex-end {
+    justify-content: flex-end;
+}
+  
+.justify-center {
+    justify-content: center;
+}
+  
+.align-stretch {
+    align-items: stretch;
+}
+  
+.align-end {
+    align-items: flex-end;
+}
+  
+.align-center {
+    align-items: center;
+}
