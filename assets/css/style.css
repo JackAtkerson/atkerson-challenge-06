@@ -13,8 +13,11 @@ header {
     background-image: linear-gradient(to right, var(--primary), blue); 
     color: white;
     text-align: center;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--secondary);
+    margin-bottom: 10px;
 }
-
 
 /* flex content */
 .flex-row {
