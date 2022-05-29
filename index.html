@@ -15,7 +15,7 @@
 <body>
     <header>
         <h1>Weather Dashboard</h1>
-        <p>How's the weather up there?</p>
+        <p>How's the weather down there?</p>
     </header>
 
     <main class="container flex-row justify-space-between">
@@ -31,14 +31,15 @@
 
             <div class="card">
                 <div id="search-history">
-                    <h3 class="card-header">Look at dem cities</h3>
+                    <h3 class="card-header">Search History</h3>
                 </div>
               </div>
         </div>
 
-        <div class="col-9" id="forecast">
-            <div id="hero">
-                <h2>Today's Forecast</h2>
+        <div class="col-9" id="current">
+            <div id="hero" class="card">
+                <h2>Current Weather in: <span id="city-search-term"></span></h2>
+                <div id="current-container" class="list-group"></div>
             </div>
 
             <div id="forecast">
