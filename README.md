@@ -7,4 +7,4 @@ I struggled to understand the API, specifically how to find the endpoint for cit
 ![Homepage screenshot](./assets/images/homepageEX.jpeg)
 
 ## URL
-https://github.com/JackAtkerson/atkerson-challenge-06.git
+https://jackatkerson.github.io/atkerson-challenge-06/
